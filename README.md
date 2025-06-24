@@ -20,7 +20,7 @@ python 3.6.8
 C:\Users\lovec\AppData\Local\Programs\Python\Python36\python.exe -m venv env
 ```
 
-3. 激活虚拟环境（Windows）：
+3. 激活虚拟环境（Windows jincancan从此开始）：
 
 ```bash
 env\Scripts\activate
@@ -31,7 +31,10 @@ env\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-
+5. 执行
+```bash
+python app.py
+```
 ## 使用概述
 
 当前用户名：admin， 密码：admin
