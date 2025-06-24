@@ -54,3 +54,21 @@ python app.py
 
 ### 3、计算结果展示
 
+## 各 Python 文件功能说明
+
+### app.py
+Web应用主入口，基于Flask，负责路由、参数处理、页面渲染和会话管理。
+
+### cores/
+- __init__.py：包标识，无实际内容。
+- calc.py：暴雨洪水计算主类，封装各类计算属性和流程。
+- calc_common.py：核心水文计算函数库，包括频率、雨量、洪峰流量等的计算。
+- chart.py：暴雨参数、关系曲线等查图与相关计算。
+- db_info.py：暴雨、水文等分区、等值线、关系曲线等信息的组织与数据库接口。
+- hydrology.py：水文统计分布（如P-III型）相关计算。
+- tables.py：数据库ORM定义，负责area、contour、relationship三类表的操作。
+- topology.py：空间拓扑与点多边形关系、象限等空间辅助函数。
+- trans.py：数据文件与数据库的转换、投影变换、批量导入等工具。
+- utils.py：通用工具函数，如路径创建等。
+- conf.py：投影参数配置，定义地图投影方式。
+
