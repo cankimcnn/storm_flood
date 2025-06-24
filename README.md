@@ -11,6 +11,27 @@ python 3.6.8
 
 第三方包详见 requirements.txt
 
+### 环境安装步骤（推荐使用虚拟环境，指定 Python 3.6）
+
+1. 确认已安装 Python 3.6（如路径为 `C:\Users\lovec\AppData\Local\Programs\Python\Python36\python.exe`）。
+2. 在项目根目录下，使用 Python 3.6 创建虚拟环境：
+
+```bash
+C:\Users\lovec\AppData\Local\Programs\Python\Python36\python.exe -m venv env
+```
+
+3. 激活虚拟环境（Windows）：
+
+```bash
+env\Scripts\activate
+```
+
+4. 安装依赖包：
+
+```bash
+pip install -r requirements.txt
+```
+
 ## 使用概述
 
 当前用户名：admin， 密码：admin
