@@ -59,7 +59,7 @@ def frame():
 
 @app.route('/index')
 def index():
-	session['all_ps'] = [2, 20, 3, 30, 4, 40, 5, 50, 10, 100]  # 设计频率列表
+	session['all_ps'] = [2, 20, 3, 30, 4, 40, 5, 50, 10, 100, 200, 300]  # 设计频率列表，增加0.5%和0.33%
 	session['k'] = 3.5  # Cs/Cv
 	session['imaxs'] = [50, 45, 40, 50, 55, 60]
 	coord = request.args.get('coord')

@@ -26,7 +26,7 @@ C:\Users\lovec\AppData\Local\Programs\Python\Python36\python.exe -m venv env
 env\Scripts\activate
 ```
 
-4. 安装依赖包：
+4. 安装依赖包（jincancan已安装）：
 
 ```bash
 pip install -r requirements.txt
